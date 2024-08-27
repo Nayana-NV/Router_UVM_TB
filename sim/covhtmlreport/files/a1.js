@@ -1,0 +1,2 @@
+var g_data = {"23":{"pr":"/router_test_pkg","ty":2,"dui":3,"dun":"work.router_test_pkg","asserts":[{"n":["small_packet/body/immed__46"],"h":[0,1]},{"n":["delay_seq/body/immed__42"],"h":[0,1]},{"n":["vbase_seq/body/immed__50"],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);

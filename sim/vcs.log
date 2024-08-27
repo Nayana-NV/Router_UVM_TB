@@ -1,0 +1,52 @@
+Command: vcs -l vcs.log -timescale=1ns/1ps -sverilog -ntb_opts uvm -debug_access+all \
+-full64 -kdb -lca -P /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab \
+/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a \
+../rtl/router_fifo.v ../rtl/router_fsm.v ../rtl/router_if.sv ../rtl/router_reg.v \
+../rtl/router_sync.v ../rtl/router_top.v +incdir+../tb +incdir+../test +incdir+../source_agt_top \
++incdir+../dest_agt_top ../test/router_test_pkg.sv ../tb/top.sv
+                         Chronologic VCS (TM)
+       Version T-2022.06-SP1_Full64 -- Mon Aug 26 17:58:26 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Parsing design file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_pkg.sv'
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/uvm_version_defines.svh'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/snps_macros.svp'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/uvm_message_defines.svh'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/uvm_phase_defines.svh'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/uvm_object_defines.svh'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+Parsing included file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/macros/uvm_printer_defines.svh'.
+Back to file '/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/uvm/uvm_macros.svh'.
+make[1]: Entering directory '/home1/BRN46/NayanaNV/VLSI_RN/UVM_LABS/Router_Project/Lab10/sim' \
+
+make[1]: *** No rule to make target 'product'.  Stop.
+make[1]: Leaving directory '/home1/BRN46/NayanaNV/VLSI_RN/UVM_LABS/Router_Project/Lab10/sim' \
+
+Make exited with status 2
+CPU time: .134 seconds to compile + .021 seconds to elab + .056 seconds to link
